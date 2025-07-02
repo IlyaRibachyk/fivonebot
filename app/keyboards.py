@@ -14,8 +14,8 @@ marafons = ReplyKeyboardMarkup(
         [KeyboardButton(text="Фізика")],
         [KeyboardButton(text="Хімія")],
         [KeyboardButton(text="Креативність")],
-        [KeyboardButton(text="Підготовка до зимових свят")],
         [KeyboardButton(text="Програмування")],
+        [KeyboardButton(text="Новорічний")],
     ],
     resize_keyboard=True,
 )
@@ -140,26 +140,13 @@ lessonForWeekThird2 = ReplyKeyboardMarkup(
         [KeyboardButton(text="Урок 1. Мрії та візуалізації")],
         [KeyboardButton(text="Урок 2. Цінності та креативність")],
         [KeyboardButton(text="Урок 3. Креативність як частина підприємництва")],
-        [KeyboardButton(text="Урок 4. Креативність як частина підприємництва")],
+        [KeyboardButton(text="Урок 4. Командна робота у креативній сфері")],
         [KeyboardButton(text="Урок 5. 10 кроків для створення креативних проектів")],
     ],
     resize_keyboard=True,
 )
 
 lesson3 = ReplyKeyboardMarkup(
-    keyboard=[
-        [KeyboardButton(text="Урок 1. Іграшка з природних матеріалів")],
-        [KeyboardButton(text="Урок 2. Іграшка в техніці канзаши")],
-        [KeyboardButton(text="Урок 3. Новорічна іграшка з солоного тіста")],
-        [KeyboardButton(text="Урок 4. Іграшка з фетру")],
-        [KeyboardButton(text="Урок 5. Квілінг")],
-        [KeyboardButton(text="Урок 6. Три іграшки з фоамірану")],
-        [KeyboardButton(text="Урок 7. Іграшка у техніці декупаж")],
-    ],
-    resize_keyboard=True,
-)
-
-lesson4 = ReplyKeyboardMarkup(
     keyboard=[
         [KeyboardButton(text="Урок 1. Вступ до програмування")],
         [KeyboardButton(text="Урок 2. Програмування життєвих ситуацій")],
@@ -171,25 +158,39 @@ lesson4 = ReplyKeyboardMarkup(
     resize_keyboard=True,
 )
 
-lessonForWeekSecond4 = ReplyKeyboardMarkup(
+lessonForWeekSecond3 = ReplyKeyboardMarkup(
     keyboard=[
         [KeyboardButton(text="Урок 1. Основи С++. Арифметика")],
         [KeyboardButton(text="Урок 2. Умови в мові С++")],
         [KeyboardButton(text="Урок 3. Алгоритми у С++")],
         [KeyboardButton(text="Урок 4. Цикли у мові С++")],
         [KeyboardButton(text="Урок 5. Функції. Підключення бібліотек")],
-        [KeyboardButton(text="Урок 6. Мотивація та тест")],
+        [KeyboardButton(text="Урок 6. Мотивація")],
     ],
     resize_keyboard=True,
 )
 
-lessonForWeekThird4 = ReplyKeyboardMarkup(
+lessonForWeekThird3 = ReplyKeyboardMarkup(
     keyboard=[
         [KeyboardButton(text="Урок 1. Основи мови Python")],
         [KeyboardButton(text="Урок 2. Цикли у мові Python")],
         [KeyboardButton(text="Урок 3. Підключення бібліотек у мові Python")],
         [KeyboardButton(text="Урок 4. Рядки у мові Python")],
         [KeyboardButton(text="Урок 5. Основи JavaScript (підготовка до інтенсиву)")],
+        [KeyboardButton(text="Урок 6. Інтенсив JavaScript")],
+    ],
+    resize_keyboard=True,
+)
+
+lesson4 = ReplyKeyboardMarkup(
+    keyboard=[
+        [KeyboardButton(text="Урок 1. Іграшка з природних матеріалів")],
+        [KeyboardButton(text="Урок 2. Іграшка в техніці канзаши")],
+        [KeyboardButton(text="Урок 3. Новорічна іграшка з солоного тіста")],
+        [KeyboardButton(text="Урок 4. Іграшка з фетру")],
+        [KeyboardButton(text="Урок 5. Квілінг")],
+        [KeyboardButton(text="Урок 6. Три іграшки з фоамірану")],
+        [KeyboardButton(text="Урок 7. Іграшка у техніці декупаж")],
     ],
     resize_keyboard=True,
 )
